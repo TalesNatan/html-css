@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando diferentes mídias em html</title>
+</head>
+<body>
+<h1> Imagens dinâmicas </h1>
+<p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador </p>
+<picture>
+    <source media="(max-width:750px)" srcset="imagens/Semtítulo1.png" type="image/png">
+    <source media="(max-width:1050px)" srcset="imagens/Semtítulo2.png" type="image/png">
+    <img src="imagens/Semtítulo3.png" alt="imagem responsiva">
+    <!--Isso facilita muito a vida do usuário-->
+</picture>
+<!--parece uma imagem mas ela permite que vc crie vários sources-->
+<br>
+<h1>Agora vamos aprender a colocar aúdios no site</h1>
+    <p> Testando reprodução de aúdios </p>
+<audio src="OdeR.mp3" autoplay loop> </audio> <!--Essa é a maneira mais simples-->
+<!--Nem todo navegador suporta mp3, wav, OGG, etc-->
+<p>Agora outra maneira </p>
+
+<audio preload="metadata" controls>
+<source src="OdeR.mp3" type="audio/mpeg"> <!--também posso colocar outros.ogg --- /ogg.wav --- /wav-->
+
+ <p> Infelizmente seu navegador não suporta mp3, para baixar o arquivo de aúdio <a href="OdeR.mp3"></a>clique aqui </a> </ p>
+
+</audio>
+
+</body>
+</html>

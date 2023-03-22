@@ -1,0 +1,38 @@
+body {background-color: #455559; font-family:Arial, Helvetica, sans-serif; color: white;}
+       
+         header {background-color: #28403D;}
+         header>#capablog {text-align: center; margin: 0%;}
+
+         #menu {height: 30px; width: 30px; position: absolute; top: 63%; left: 96%; opacity: 80%;}
+         #menu:hover {background-color: rgba(255, 255, 0, 0.432);}
+
+         div {background-color: #3177a5; height: 200px;}
+         div>h1 {margin: 0; margin-left: 8px; padding-top: 8px;}
+
+         .assuntos {margin-left: 10px;font-size: 17px; width: 350px; text-align: justify; position: relative; top:10%;}
+
+         .principallinks {margin-right: 30px; margin-left: 15px; font-weight: bold ; text-decoration: none; color: white;}
+
+         .principallinks2 {color: white; text-decoration: none;}
+         
+         a:hover {background-color: rgba(255, 255, 0, 0.432);}
+         
+         #sobre {display: inline-block; margin:0px; margin-right: 80px; position: absolute; left: 870px;}
+         
+         #rf {display: inline-block; margin: 0px; position: relative; left: 780px;}   
+         
+         nav {box-shadow:  5px 3px 5px 3px black; position: relative; top: 19%;}
+
+         main {background-color: #e3ecee; color: black; width: 800px; margin: auto; margin-top: 20px;border-radius: 10px 0px; position: relative;} 
+        
+         section {padding: 10px 0px;}
+         section>h1 {margin: 0px; text-align: center; color: #172422; border-image:url(imagens/menu.png);}
+
+         article>p {text-align: justify; text-indent: 40px; padding: 0px 20px;}
+
+         aside>p {background-color: #bac2c4; margin: 0px; padding-left: 20px; padding-top: 5px; padding-bottom: 5px; font-size: 12px; border-radius: 10px 0px;}
+
+         footer {background-color: #182524;}
+         footer>p {margin: 0px; padding: 20px; text-align: center;}
+         
+         

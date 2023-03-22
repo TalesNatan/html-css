@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <Style>
+    ul {list-style:square;} <!--Aqui eu criei um estilo só pra todas as listas-->
+    </Style>
+</head>
+<body>
+    <h1> Trabalhando com listas </h1>
+    <h2> Listas ordenadas </h2> <!--a ordem faz a diferença-->
+    <ol>
+<li> Acordar </li>
+<li> Ligar para o João </li>
+<li> Tomar café </li>
+    </ol>
+    <!--para arrumar uma lista grande e deixar tudo ok posso usar a tag <ol> (ordered list) e <li> (list item)-->
+        <!-- No HTML5 posso não usar o /li--> <!-- Posso usar o parâmetro type pra dizer o tipo de lista que eu quero e usar o start para dizer a partir de que numero começar a contagem por exemplo-->
+<ol type="1" start="4">
+<li> Acordar
+<li> Tomar café
+<li> Escovar a boca
+</ol>
+<!--o type A usa letras maiúsculas, a usa minúculas, o I usa algarismos romanos maiúsculos e i usa alg roman minúsculos-->
+<h2> Listas não ordenadas </h2> <!--A sequência não faz sentido-->
+<ul type="square">
+<li>pão</li>
+<li>manteiga</li>
+<li>leite</li>
+</ul> <!--posso usar o type pra escolher o tipo de marcador como disc, circle, square e só--> <!--Listas são mt usadas pra fazer menus-->
+<br>
+<h2>Junção de listas</h2>
+<p> Minhas linguagens preferidas </p>
+
+<ol>
+    <li>
+     Antigas   
+    </li>
+    <ol type="A">
+    <li>blabla1</li>
+    <li>blabla2</li>
+    <li>só deus sabe</li>    
+    </ol>
+    <li>Novas</li>
+    <ol type="A" start="4"> <!--O start é um parâmetro numérico, vc precisa usar numeros para indicar a ordem-->
+    <li> Python </li>
+    <li> PHP </li>
+    <li> Estevão Ferreira </li>
+    </ol>
+</ol>
+<h2>Meus jogos favoritos </h2>
+<ol>
+    <li>nintendo</li>
+    <ul type="square">
+    <li> Super mário </li>
+    <li> Street fighter </li>
+    </ul>
+    <li>ps2</li>
+    <ul type="square">
+    <li> Bomba pass</li>
+    <li> Resident evil </li>
+    </ul type="square">
+    <li>xbox</li>
+    <ul type="square"> 
+    <li> Sombras de mordor</li>
+    <li> Tekken 6</li>
+    <li> Call of duty aw </li>
+    </ul>
+</ol>
+<!--OBS: Posso mudar tudo de OL para UL segurando alt, selecionando tudo que quero mudar e depois só coloco o u-->
+<h2> Litas de definição </h2> <!--Usa-se a tag dl e depois vc coloca dt para o termo e dd para a descrição-->
+<dl>
+    <dt>HTML</dt>
+    <dd> É uma linguagem de marcação utilizada para criação de sites</dd>
+    <dt> CSS </dt>
+    <dd> Linguagem de marcação utilizada para o design do site</dd>
+    <dt>Java Script</dt>
+    <dd> É uma linguagem de programação para colocar as funcionalidades do site</dd>
+</dl>
+<ul>
+<li>suco</li>
+<li>de</li>
+<li>uva</li>
+ </ul>
+
+</body>
+</html>
