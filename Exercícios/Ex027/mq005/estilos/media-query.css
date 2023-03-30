@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/*typical device breakpoints (recomendações do w3c
+pequenas telas:  até 600px de largura
+celulares: 600px até 768px de largura
+tablets: 768px até 992px
+desktops: 992px até 1200px
+grandes telas: acima de 1200px*/
+
+@media screen and (min-width:768px) {i#burguer {display: none;} menu {display: block;} menu>ul>li {display: inline-block; position: relative; left:50%; transform: translate(-190px, 0%);} main {width: 768px;} }
